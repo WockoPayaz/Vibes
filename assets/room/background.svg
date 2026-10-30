@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <pattern id="wall" width="96" height="96" patternUnits="userSpaceOnUse"><path d="M48 44v8m-4-4h8" stroke="#bbaac8" stroke-width="2" opacity=".45"/></pattern>
+    <pattern id="floor" width="480" height="125" patternUnits="userSpaceOnUse"><path d="M0 124h480M240 0v124" stroke="#c7adb0" stroke-width="2" opacity=".6"/></pattern>
+  </defs>
+  <path fill="#ddd2e4" d="M0 0h1920v1080H0z"/>
+  <path fill="url(#wall)" d="M0 0h1920v755H0z"/>
+  <path d="M0 755q450 4 960 0t960 3v322H0z" fill="#dec8c7"/>
+  <path fill="url(#floor)" d="M0 782h1920v298H0z"/>
+  <path d="M0 749q450 7 960 0t960 3v27q-470-4-960 0t-960-3z" fill="#e9dfe9" stroke="#a797b1" stroke-width="3"/>
+  <path d="M525 1080l155-301m520 301-38-301m418 301-130-301" stroke="#c6aeb1" stroke-width="2" opacity=".5"/>
+  <ellipse cx="888" cy="943" rx="361" ry="86" fill="#c0b1c4" opacity=".6"/>
+  <ellipse cx="890" cy="936" rx="332" ry="69" fill="#cbbcd3"/>
+  <ellipse cx="890" cy="936" rx="310" ry="54" fill="none" stroke="#a896b3" stroke-width="2" stroke-dasharray="7 8"/>
+  <g fill="none" stroke="#aa97b6" stroke-width="3" stroke-linecap="round">
+    <path d="M861 160v22m-11-11h22m-109 123v16m-8-8h16m175 48v24m-12-12h24"/>
+    <path d="M981 110l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/>
+  </g>
+  <path d="M795 285q42-43 87-9" fill="none" stroke="#c3afd0" stroke-width="2" stroke-dasharray="6 7"/>
+  <path d="M1200 686v24q-1 24 35 24h37" fill="none" stroke="#89778f" stroke-width="4" stroke-linecap="round"/>
+  <rect x="1269" y="708" width="23" height="30" rx="4" fill="#eee5ed" stroke="#a08da9" stroke-width="2"/>
+  <path d="M1276 719v6m9-6v6" stroke="#a08da9" stroke-width="2"/>
+</svg>

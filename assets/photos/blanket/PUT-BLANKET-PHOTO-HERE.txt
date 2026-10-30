@@ -1,0 +1,2 @@
+Put your blanket photo in this folder. Then set bed.photo.src in config.js.
+Example path: assets/photos/blanket/my-blanket.jpg

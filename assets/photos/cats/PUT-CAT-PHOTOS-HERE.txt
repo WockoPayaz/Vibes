@@ -1,0 +1,3 @@
+Put your cat photos in this folder. Then add their paths to cats.photos in config.js.
+Example path: assets/photos/cats/milo.jpg
+Do not rename this text file to .jpg; add your actual image files.

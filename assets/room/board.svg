@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 313">
+  <path d="M10 10l345-3-1 290-342 5z" fill="#bd9b91" stroke="#8e7480" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M24 24l317-3-1 262-315 6z" fill="#d9baa5" stroke="#aa8c84" stroke-width="2"/>
+  <g stroke="#c6a78d" stroke-width="2" opacity=".7"><path d="M41 41h281M41 260h281M310 40v220M41 50v200" stroke-dasharray="3 8"/></g>
+  <path d="M109 34l147-2-1 30-145 3z" fill="#ece0cb"/>
+  <text x="181" y="53" text-anchor="middle" font-family="monospace" font-size="15" fill="#7a606d">things to do</text>
+  <g transform="rotate(-6 110 143)"><path d="M48 83h119v131H48z" fill="#e9dec1" stroke="#bba484" stroke-width="1.5"/><circle cx="106" cy="88" r="4" fill="#a482a5"/><text x="66" y="117" font-family="monospace" font-size="10" fill="#7a6873">MAKE STUFF</text><path d="M67 134h7v7h-7zM67 154h7v7h-7zM83 138h60m-60 20h48m-61 21h76" fill="none" stroke="#b69f94" stroke-width="2"/></g>
+  <g transform="rotate(6 259 140)"><path d="M204 88h109v101H204z" fill="#d7c7df" stroke="#b09cbb" stroke-width="1.5"/><circle cx="256" cy="93" r="4" fill="#a0788b"/><path d="M256 114l5 12 14 2-10 9 2 14-11-6-12 6 2-14-10-9 14-2z" fill="#eee0bd" stroke="#aa93b3" stroke-width="2"/><text x="259" y="174" text-anchor="middle" font-family="monospace" font-size="10" fill="#7a6873">TRY SOMETHING</text></g>
+  <path d="M190 223l118-5 2 38-118 5z" fill="#c1cbb5"/>
+  <text x="252" y="244" transform="rotate(-2 252 244)" text-anchor="middle" font-family="monospace" font-size="11" fill="#647562">be curious :)</text>
+</svg>

@@ -1,0 +1,2 @@
+Put your outdoor photos in this folder. Then add their paths to window.photos in config.js.
+Example path: assets/photos/outdoors/sunset.jpg

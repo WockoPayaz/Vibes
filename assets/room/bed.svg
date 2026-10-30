@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 557 616">
+  <defs><pattern id="checks" width="98" height="84" patternUnits="userSpaceOnUse"><rect width="98" height="84" fill="#d7adba"/><path d="M0 42h98M49 0v84" stroke="#ebc9cd" stroke-width="33"/><path d="M0 42h98M49 0v84" stroke="#bb90a6" stroke-width="1.5"/></pattern></defs>
+  <path d="M75 21l474-18 9 89-497 31z" fill="#ac8a9d" stroke="#7c657e" stroke-width="5"/>
+  <path d="M63 74l490-31 15 484-421 79L8 474z" fill="#ba99ab" stroke="#7c657e" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M60 75l493-30 13 427-422 85L16 447z" fill="#f1e1d9" stroke="#9c8195" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M69 97l214-12 14 112-222 18z" fill="#faf0df" stroke="#bfa9b7" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M322 81l226-13 12 119-223 16z" fill="#eee1d8" stroke="#bfa9b7" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M79 109l190-10m-180 97 191-15m56-87 197-11" fill="none" stroke="#d5c3c6" stroke-width="2"/>
+  <path d="M39 231q238-41 522-36l9 296-425 96L6 466z" fill="url(#checks)" stroke="#9c788f" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M39 231q249-42 522-36v43q-278-1-524 41z" fill="#e6c6cd" stroke="#9c788f" stroke-width="3"/>
+  <path d="M46 286l-18 163 113 112 405-92" fill="none" stroke="#f2d9d9" stroke-width="3" stroke-dasharray="7 6"/>
+  <path d="M144 587l1 23m363-90 1 25" stroke="#7c657e" stroke-width="11" stroke-linecap="round"/>
+  <path d="M171 295q46 20 92 0m138 60q32 17 64 0" fill="none" stroke="#ba8fa7" stroke-width="3" opacity=".7"/>
+</svg>

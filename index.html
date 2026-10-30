@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3eb">
+  <meta name="description" content="A little room on the internet. Click around and make yourself at home.">
+  <title>My room · a little corner of the internet</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Classic scripts work even when you open index.html directly. Order matters. -->
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#room-shortcuts">Skip to room shortcuts</a>
+  <header class="site-header page-width">
+    <a class="wordmark" href="#home" aria-label="My room home">
+      <img src="assets/favicon.svg" alt="" width="31" height="31">
+      <span id="site-name">my room</span><span class="wordmark-dot">.</span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a class="current-page" href="#room">the room <span aria-hidden="true">↗</span></a>
+      <a href="#room-shortcuts">what’s inside</a>
+    </nav>
+  </header>
+
+  <main id="home" class="page-width">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="intro">
+        <div>
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> COME ON IN. STAY A WHILE.</p>
+          <h1 id="hero-title">welcome to <em>my room.</em></h1>
+          <p id="intro-text" class="intro-text">A little corner of the internet, full of my favorite things.</p>
+        </div>
+        <div class="handwritten-note" aria-hidden="true">make yourself<br>at home! <span>↴</span></div>
+      </div>
+
+      <div id="room" class="room-frame">
+        <div class="room-toolbar">
+          <div class="room-address"><span class="tiny-window" aria-hidden="true">⌂</span> <span>room.html</span><span class="toolbar-separator">/</span><span class="toolbar-muted">my happy place</span></div>
+          <button id="labels-toggle" class="labels-toggle" type="button" aria-pressed="false" aria-controls="room-scene"><span aria-hidden="true">⌖</span> <span id="labels-toggle-text">show labels</span></button>
+        </div>
+        <!-- All artwork and click areas share this same coordinate system. -->
+        <div id="room-scene" class="room-scene" role="group" aria-label="Interactive room. Select an object to explore." aria-describedby="room-help">
+          <img id="room-background" class="room-background" src="assets/room/background.svg" alt="" width="1920" height="1080" fetchpriority="high">
+        </div>
+        <div class="room-caption">
+          <p id="room-help"><span class="sparkle" aria-hidden="true">✧</span> Click something. There’s a little story in here.</p>
+          <span class="caption-right">7 things to discover <span aria-hidden="true">↗</span></span>
+        </div>
+      </div>
+
+      <nav id="room-shortcuts" class="room-shortcuts" aria-label="Room shortcuts" tabindex="-1">
+        <p class="shortcut-intro">or take a shortcut <span aria-hidden="true">→</span></p>
+        <div id="shortcut-buttons" class="shortcut-buttons"></div>
+      </nav>
+      <noscript><p class="noscript-note">This room needs JavaScript for its popups. Enable it, then refresh to explore.</p></noscript>
+    </section>
+  </main>
+
+  <footer class="site-footer page-width"><span>a room on the web. that’s all.</span><span>thanks for stopping by <span class="footer-star" aria-hidden="true">✳</span></span></footer>
+
+  <!-- One native dialog handles focus, keyboard navigation, and every popup. -->
+  <dialog id="room-dialog" class="room-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <div class="dialog-header">
+      <div class="dialog-address"><span class="dialog-dot" aria-hidden="true"></span><span id="dialog-path">room://bookshelf</span></div>
+      <button id="dialog-close" class="icon-button" type="button" aria-label="Close popup" autofocus>×</button>
+    </div>
+    <div id="dialog-content" class="dialog-content"></div>
+    <div class="dialog-footer"><span>a little piece of my world</span><span><kbd>esc</kbd> to close</span></div>
+  </dialog>
+</body>
+</html>

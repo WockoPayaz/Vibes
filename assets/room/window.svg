@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 421">
+  <defs><clipPath id="glass"><path d="M44 34h430v337H44z"/></clipPath></defs>
+  <path d="M20 12l481 3 0 387-481-3z" fill="#e9dce0" stroke="#89758c" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M43 34h432v338H43z" fill="#bdd1d6" stroke="#89758c" stroke-width="4"/>
+  <g clip-path="url(#glass)">
+    <circle cx="376" cy="100" r="35" fill="#f4e3b3"/>
+    <path d="M14 303q111-134 214-9 122-150 274-20v141H10z" fill="#91b4a8"/>
+    <path d="M5 345q138-101 258-7 110-74 250-31v108H5z" fill="#739c8a"/>
+    <path d="M72 114q-1-18 24-18 6-22 26-19 24 0 29 22 22-1 26 15zM289 202q-2-17 19-17 6-18 24-16 21 1 24 17 24 0 25 16z" fill="#f3f0e5" opacity=".85"/>
+  </g>
+  <path d="M251 34h15v338h-15zM44 194h430v14H44z" fill="#eee1dd" stroke="#89758c" stroke-width="3"/>
+  <path d="M12 383l496 1 5 27-506-3z" fill="#efe1d8" stroke="#89758c" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M39 14q-14 129 12 218l-19 141H7l2-359zM470 17q20 122-9 218l28 140h27L511 17z" fill="#f0d7cd" stroke="#a98b95" stroke-width="3"/>
+  <path d="M19 32q0 120 15 180m468-177q0 118-16 177" fill="none" stroke="#d6b3b0" stroke-width="3"/>
+  <path d="M105 44l46 101m-62-62 27 60" fill="none" stroke="#eef4eb" stroke-width="5" opacity=".35"/>
+</svg>
